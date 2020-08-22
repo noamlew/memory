@@ -1,0 +1,80 @@
+body {
+    overflow: hidden;
+    background-color: skyblue;
+}
+
+.row {
+    text-align: center;
+}
+
+.card {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    margin: 2px;
+    background-color: rgb(130, 130, 130);
+    border: 2px solid black;
+}
+
+.card:hover {
+    outline: solid 5px gold;
+}
+
+#leftPlayer {
+    float: left;
+    width: 330px;
+    height: 645px;
+    border: 2px solid black;
+    background-color: rgb(194, 194, 194);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#rightPlayer {
+    float: right;
+    width: 330px;
+    height: 645px;
+    border: 2px solid black;
+    background-color: rgb(194, 194, 194);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#rightText {
+    font-size: 60px;
+    font-family: cursive;
+}
+
+#leftText {
+    font-size: 60px;
+    font-family: cursive;
+}
+
+.endGame {
+    text-align: center;
+}
+
+.endGameBox {
+    display: none;
+}
+
+#playText {
+    color: skyblue;
+    font-size: 165px;
+    font-family: cursive;
+    -webkit-text-stroke-width: 5px;
+    -webkit-text-stroke-color: black;
+}
+
+#playText:hover {
+    color: yellow;
+    -webkit-text-stroke-width: 8px;
+    -webkit-text-stroke-color: black;
+}
+
+#copyright {
+    font-family: cursive;
+    color: blue;
+}

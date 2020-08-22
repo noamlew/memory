@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Memory game</title>
+        <link href="remember.css" rel="styleSheet" />
+        <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTB0ZaHvNoOPsha7JbGlBkZZbMLiH2gRFo17d90B5wbRA&usqp=CAU&ec=45690269">
+    </head>
+    <body>
+        <div id="leftPlayer">
+            <p id="leftText">score:</p>
+        </div>
+        <div id="rightPlayer">
+            <p id="rightText">score:</p>
+        </div>
+        <div id="gameScreen">
+            <div class="endGame">
+                <div id="play" class="endGameBox" onclick="setUpGame()"><p id="playText">play again!</p></div>
+            </div>
+            <div class="row">
+                <div class="card" onclick="flipCard(0)"></div>
+                <div class="card" onclick="flipCard(1)"></div>
+                <div class="card" onclick="flipCard(2)"></div>
+                <div class="card" onclick="flipCard(3)"></div>
+                <div class="card" onclick="flipCard(4)"></div>
+            </div>
+            <div class="row">
+                <div class="card" onclick="flipCard(5)"></div>
+                <div class="card" onclick="flipCard(6)"></div>
+                <div class="card" onclick="flipCard(7)"></div>
+                <div class="card" onclick="flipCard(8)"></div>
+                <div class="card" onclick="flipCard(9)"></div>
+            </div>
+            <div class="row">
+                <div class="card" onclick="flipCard(10)"></div>
+                <div class="card" onclick="flipCard(11)"></div>
+                <div class="card" onclick="flipCard(12)"></div>
+                <div class="card" onclick="flipCard(13)"></div>
+                <div class="card" onclick="flipCard(14)"></div>
+            </div>
+            <div class="row">
+                <div class="card" onclick="flipCard(15)"></div>
+                <div class="card" onclick="flipCard(16)"></div>
+                <div class="card" onclick="flipCard(17)"></div>
+                <div class="card" onclick="flipCard(18)"></div>
+                <div class="card" onclick="flipCard(19)"></div>
+            </div>
+        </div>
+        <p id="copyright">©noam daniel lewin</p>
+    </body>
+    <script src="remember.js"></script>
+</html>
